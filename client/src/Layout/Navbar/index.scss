@@ -1,0 +1,48 @@
+nav {
+  padding: 25px 25px;
+  width: 100%;
+  .container {
+    .navbarContents {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 17px;
+      .bars {
+        ul {
+          display: flex;
+          gap: 35px;
+
+          li {
+            .home {
+              color: blue;
+            }
+            a {
+              color: black;
+              outline: none;
+            }
+          }
+        }
+      }
+      .icons {
+        display: flex;
+        gap: 15px;
+        cursor: pointer;
+        svg {
+          font-size: 22px;
+        }
+      }
+      .buyNowBtn {
+        padding: 16px 45px;
+        border-radius: 50px;
+        border: 1px solid gray;
+        background: none;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+      .buyNowBtn:hover{
+        border: 1px solid blue;
+
+      }
+    }
+  }
+}
